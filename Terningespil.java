@@ -1,3 +1,5 @@
+ import java.util.Scanner;
+import java.util.Random;
 class Terningspil {
         private Spiller spiller1;
         private Spiller spiller2;
