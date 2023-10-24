@@ -36,47 +36,47 @@ class Terningspil {
                 switch (sum) {
                     case 2:
                         feltEffekt = 250;
-                        feltBesked = "Tower: +250";
+                        feltBesked = "Du har fundet mønter og smykker i et tårn og sælger det: +250";
                         break;
                     case 3:
                         feltEffekt = -100;
-                        feltBesked = "Crater: -100";
+                        feltBesked = "Du falder ned i et krater: -100";
                         break;
                     case 4:
                         feltEffekt = 100;
-                        feltBesked = "Palace gates: +100";
+                        feltBesked = "Du indtræder en palads port og får penge ved indgangen: +100";
                         break;
                     case 5:
                         feltEffekt = -20;
-                        feltBesked = "Cold Desert: -20";
+                        feltBesked = "Du ankommer til en kold ørken og mister penge: -20";
                         break;
                     case 6:
                         feltEffekt = 180;
-                        feltBesked = "Walled city: +180";
+                        feltBesked = "Du befinder dig i en befæstet by og finder værdifulde genstande: +180";
                         break;
                     case 7:
                         feltEffekt = 0;
-                        feltBesked = "Monastery: 0";
+                        feltBesked = "Du indtræder et tempel, her er tomt: 0";
                         break;
                     case 8:
                         feltEffekt = -70;
-                        feltBesked = "Black cave: -70";
+                        feltBesked = "Du faret vild i den sorte grotte: -70";
                         break;
                     case 9:
                         feltEffekt = 60;
-                        feltBesked = "Huts in the mountain: +60";
+                        feltBesked = "Du fandt nogle forladte hytter i bjergene og fandt værdifulde genstande: +60";
                         break;
                     case 10:
                         feltEffekt = -80;
-                        feltBesked = "The Werewall: -80 (Ekstra tur)";
+                        feltBesked = "Du stødte ind i en stor mur og var nødt til at tage en omvej: -80 (Ekstra tur)";
                         break;
                     case 11:
                         feltEffekt = -50;
-                        feltBesked = "The pit: -50";
+                        feltBesked = "Du faldt i et stort hul og skulle betale for en stige: -50";
                         break;
                     case 12:
                         feltEffekt = 650;
-                        feltBesked = "Goldmine: +650";
+                        feltBesked = "Du har fundet guld i minen og sælger det: +650";
                         break;
                 }
 
@@ -109,47 +109,47 @@ class Terningspil {
                         switch (sum_2) {
                     case 2:
                         feltEffekt_2 = 250;
-                        feltBesked_2 = "Du har fundet et guld i et tårn og sælger det for 250";
+                        feltBesked_2 = "Du har fundet mønter og smykker i et tårn og sælger det: +250";
                         break;
                     case 3:
                         feltEffekt_2 = -100;
-                        feltBesked_2 = "Du falder ned i et krater og mister 100";
+                        feltBesked_2 = "Du falder ned i et krater: -100";
                         break;
                     case 4:
                         feltEffekt_2 = 100;
-                        feltBesked_2 = "Du indtræder en palads port og får 100";
+                        feltBesked_2 = "Du indtræder en palads port og får penge ved indgangen: +100";
                         break;
                     case 5:
                         feltEffekt_2 = -20;
-                        feltBesked_2 = "Du ankommer til en kold ørken og mister 20";
+                        feltBesked_2 = "Du ankommer til en kold ørken og mister penge: -20";
                         break;
                     case 6:
                         feltEffekt_2 = 180;
-                        feltBesked_2 = "Du befinder dig i en befæstet by, her finder du 180";
+                        feltBesked_2 = "Du befinder dig i en befæstet by og finder værdifulde genstande: +180";
                         break;
                     case 7:
                         feltEffekt_2 = 0;
-                        feltBesked_2 = "Du indtræder et tempel, her er tomt 0";
+                        feltBesked_2 = "Du indtræder et tempel, her er tomt: 0";
                         break;
                     case 8:
                         feltEffekt_2 = -70;
-                        feltBesked_2 = "Black cave: -70";
+                        feltBesked_2 = "Du faret vild i den sorte grotte: -70";
                         break;
                     case 9:
                         feltEffekt_2 = 60;
-                        feltBesked_2 = "Huts in the mountain: +60";
+                        feltBesked_2 = "Du fandt nogle forladte hytter i bjergene og fandt værdifulde genstande: +60";
                         break;
                     case 10:
                         feltEffekt_2 = -80;
-                        feltBesked_2 = "The Werewall: -80 (Ekstra tur)";
+                        feltBesked_2 = "Du stødte ind i en stor mur og var nødt til at tage en omvej: -80 (Ekstra tur)";
                         break;
                     case 11:
                         feltEffekt_2 = -50;
-                        feltBesked_2 = "The pit: -50";
+                        feltBesked_2 = "Du faldt i et stort hul og skulle betale for en stige: -50";
                         break;
                     case 12:
                         feltEffekt_2 = 650;
-                        feltBesked_2 = "Goldmine: +650";
+                        feltBesked_2 = "Du har fundet guld i minen og sælger det: +650";
                         break;
                 }
 
