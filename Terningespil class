@@ -109,27 +109,27 @@ class Terningspil {
                         switch (sum_2) {
                     case 2:
                         feltEffekt_2 = 250;
-                        feltBesked_2 = "Tower: +250";
+                        feltBesked_2 = "Du har fundet et guld i et tårn og sælger det for 250";
                         break;
                     case 3:
                         feltEffekt_2 = -100;
-                        feltBesked_2 = "Crater: -100";
+                        feltBesked_2 = "Du falder ned i et krater og mister 100";
                         break;
                     case 4:
                         feltEffekt_2 = 100;
-                        feltBesked_2 = "Palace gates: +100";
+                        feltBesked_2 = "Du indtræder en palads port og får 100";
                         break;
                     case 5:
                         feltEffekt_2 = -20;
-                        feltBesked_2 = "Cold Desert: -20";
+                        feltBesked_2 = "Du ankommer til en kold ørken og mister 20";
                         break;
                     case 6:
                         feltEffekt_2 = 180;
-                        feltBesked_2 = "Walled city: +180";
+                        feltBesked_2 = "Du befinder dig i en befæstet by, her finder du 180";
                         break;
                     case 7:
                         feltEffekt_2 = 0;
-                        feltBesked_2 = "Monastery: 0";
+                        feltBesked_2 = "Du indtræder et tempel, her er tomt 0";
                         break;
                     case 8:
                         feltEffekt_2 = -70;
