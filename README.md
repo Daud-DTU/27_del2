@@ -10,15 +10,15 @@ spillet er på dansk
 
 Felter og konsekvenser
 (Man kan ikke slå 1 med to terninger)
-1 Tower +250
-2 Crater -100
-3 Palace gates +100
-4 Cold Desert	-20
-5 Walled city +180
-6 Monastery 0
-7 Black cave -70
-8 Huts in the mountain +60
-9 The Werewall (werewolf-wall) -80,	men spilleren får en ekstra tur.
-10 The pit (Du landede i et stort hul og betalte en bonde 50, for en stige)	-50
-11 Goldmine +650
+2 Tower +250
+3 Crater -100
+4 Palace gates +100
+5 Cold Desert	-20
+6 Walled city +180
+7 Monastery 0
+8 Black cave -70
+9 Huts in the mountain +60
+10 The Werewall (werewolf-wall) -80,	men spilleren får en ekstra tur.
+11 The pit (Du landede i et stort hul og betalte en bonde 50, for en stige)	-50
+12 Goldmine +650
 -------------------------------------------------------------------------------------------------------------------------------------------
