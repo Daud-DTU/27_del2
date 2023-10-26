@@ -17,7 +17,6 @@ class Terningspil {
             Scanner scanner = new Scanner(System.in);
 
 
-           
             while (spiller1.getKonto().getSaldo() < 3000 && spiller2.getKonto().getSaldo() < 3000) {
                 System.out.println(spiller1.getNavn() + ", tryk på Enter for at kaste terningerne.");
                 scanner.nextLine();
@@ -68,10 +67,20 @@ class Terningspil {
                         feltEffekt = 60;
                         feltBesked = "Du fandt nogle forladte hytter i bjergene og fandt værdifulde genstande: +60";
                         break;
+                  
                     case 10:
                         feltEffekt = -80;
-                        feltBesked = "Du stødte ind i en stor mur og var nødt til at tage en omvej: -80 (Ekstra tur)";
-                        break;
+                        feltBesked = "Du stødte ind i en stor mur: -80";
+   
+                        spiller1.getKonto().indsætPenge(feltEffekt);
+                        System.out.println(feltBesked);
+                        System.out.println("Saldo for " + spiller1.getNavn() + ": " + spiller1.getKonto().getSaldo());
+                        System.out.println();
+
+
+                        System.out.println(spiller1.getNavn() + " får en ekstra tur!");
+                        continue; 
+
                     case 11:
                         feltEffekt = -50;
                         feltBesked = "Du faldt i et stort hul og skulle betale for en stige: -50";
@@ -141,10 +150,21 @@ class Terningspil {
                         feltEffekt_2 = 60;
                         feltBesked_2 = "Du fandt nogle forladte hytter i bjergene og fandt værdifulde genstande: +60";
                         break;
+                    
                     case 10:
-                        feltEffekt_2 = -80;
-                        feltBesked_2 = "Du stødte ind i en stor mur og var nødt til at tage en omvej: -80 (Ekstra tur)";
-                        break;
+                        feltEffekt = -80;
+                        feltBesked = "Du stødte ind i en stor mur: -80";
+    
+
+                        spiller1.getKonto().indsætPenge(feltEffekt);
+                        System.out.println(feltBesked);
+                        System.out.println("Saldo for " + spiller1.getNavn() + ": " + spiller1.getKonto().getSaldo());
+                        System.out.println();
+
+
+                        System.out.println(spiller1.getNavn() + " får en ekstra tur!");
+                        continue; 
+
                     case 11:
                         feltEffekt_2 = -50;
                         feltBesked_2 = "Du faldt i et stort hul og skulle betale for en stige: -50";
