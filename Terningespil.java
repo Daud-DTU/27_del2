@@ -70,7 +70,7 @@ class Terningspil {
                   
                     case 10:
                         feltEffekt = -80;
-                        feltBesked = "Du stødte ind i en stor mur: -80";
+                        feltBesked = "Du stødte ind i en stor mur: -80 (Ekstra tur)";
    
                         spiller1.getKonto().indsætPenge(feltEffekt);
                         System.out.println(feltBesked);
@@ -78,8 +78,8 @@ class Terningspil {
                         System.out.println();
 
 
-                        System.out.println(spiller1.getNavn() + " får en ekstra tur!");
-                        continue; 
+                        System.out.println(spiller1.getNavn() + " får en ekstra tur! tryk på Enter for at kaste terningerne.");
+                        scanner.nextLine();
 
                     case 11:
                         feltEffekt = -50;
@@ -110,7 +110,7 @@ class Terningspil {
                 int sum_2 = kast1_2 + kast2_2;
 
 
-                System.out.println(spiller2.getNavn() + " kastede " + kast1_2 + " og " + kast2_2 + " (sum: " + sum_2 + ")");
+                System.out.println(spiller2.getNavn() + " slog " + kast1_2 + " og " + kast2_2 + " (sum: " + sum_2 + ")");
 
 
                 int feltEffekt_2 = 0;
@@ -153,17 +153,17 @@ class Terningspil {
                     
                     case 10:
                         feltEffekt = -80;
-                        feltBesked = "Du stødte ind i en stor mur: -80";
-    
-
-                        spiller1.getKonto().indsætPenge(feltEffekt);
+                        feltBesked = "Du stødte ind i en stor mur: -80 (ekstra tur)";
+   
+                        spiller2.getKonto().indsætPenge(feltEffekt);
                         System.out.println(feltBesked);
-                        System.out.println("Saldo for " + spiller1.getNavn() + ": " + spiller1.getKonto().getSaldo());
+                        System.out.println("Saldo for " + spiller2.getNavn() + ": " + spiller2.getKonto().getSaldo());
                         System.out.println();
 
 
-                        System.out.println(spiller1.getNavn() + " får en ekstra tur!");
-                        continue; 
+                        System.out.println(spiller2.getNavn() + " får en ekstra tur! tryk på Enter for at kaste terningerne.");
+                        scanner.nextLine();
+                        
 
                     case 11:
                         feltEffekt_2 = -50;
