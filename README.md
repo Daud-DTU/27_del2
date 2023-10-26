@@ -1,5 +1,5 @@
 
------------------------------------------OM SPILLET--------------------------------------------------------------------------------------
+-----------------------------------------OM SPILLET-------------------------------------------------------------------------
 Det her er et terningespil af IOOuterActive. Det skal spilles af 2 personer og programmet skal køres i main filen.
 Når programmet køre, starter spillet med spørge om spiller 1's navn og derefter spiller 2's navn.
 Herefter skiftes spiller 1 og spiller 2 med at slå med de 2 terninger og lander efter hvert slag på er af de nedenstående felter.
@@ -21,4 +21,4 @@ Felter og konsekvenser
 10 The Werewall (werewolf-wall) -80,	men spilleren får en ekstra tur.
 11 The pit (Du landede i et stort hul og betalte en bonde 50, for en stige)	-50
 12 Goldmine +650
--------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
